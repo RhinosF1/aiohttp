@@ -3,3 +3,4 @@ flake8==3.8.4
 flake8-pyi==20.5.0; python_version >= "3.6"
 black==20.8b1; python_version >= "3.6"
 isort==5.6.4
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
